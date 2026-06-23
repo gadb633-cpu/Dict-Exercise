@@ -31,4 +31,9 @@ print("score" in agent)
 # 9
 scores = {"alpha":80 , "bravo":95 , "charlie":70}
 print(max(scores.values()))
-
+# 10
+copy_agent = agent.copy()
+print(copy_agent)
+copy_agent["level"] = 10
+print(copy_agent)
+print(agent)
