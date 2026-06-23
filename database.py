@@ -16,3 +16,16 @@ print(agent)
 # 6
 del agent["active"]
 print(agent)
+# 7
+agent_keys = agent.keys()
+print(agent_keys)
+print(agent.keys())
+agent_values = agent.values()
+print(agent_values)
+print(agent.values())
+agent_values_and_keys = agent.items()
+print(agent_values_and_keys)
+print(agent.items())
+
+
+
