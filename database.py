@@ -71,3 +71,7 @@ words = ["a","b","a","c","b","a"]
 names = {}
 names.update({"ded":"gad", "mum":"efrat","kide":"yossi"})
 print(names)
+# 2
+list_of_tuples = [("a",1,),("b",2)]
+dict_list = dict(list_of_tuples)
+print(dict_list)
