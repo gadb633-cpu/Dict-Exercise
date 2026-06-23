@@ -26,6 +26,7 @@ print(agent.values())
 agent_values_and_keys = agent.items()
 print(agent_values_and_keys)
 print(agent.items())
-
+# 8
+print("score" in agent)
 
 
