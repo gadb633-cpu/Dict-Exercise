@@ -50,3 +50,8 @@ d1 = {"a":1,"b":2}
 d2 = {"b":3,"c":4}
 merge_d1_and_d2 = d1 | d2
 print(merge_d1_and_d2)
+# 3
+pop_a = merge_d1_and_d2.pop("a","not exist")
+print(pop_a)
+print(merge_d1_and_d2)
+
