@@ -54,4 +54,7 @@ print(merge_d1_and_d2)
 pop_a = merge_d1_and_d2.pop("a","not exist")
 print(pop_a)
 print(merge_d1_and_d2)
+# 4
+nested = {"server":{"host":"locahost", "port":8080}}
+print(nested["server"]["port"])
 
