@@ -37,3 +37,9 @@ print(copy_agent)
 copy_agent["level"] = 10
 print(copy_agent)
 print(agent)
+# part 2
+# 1
+config = {}
+config_timeout = config.setdefault("timeout",30)
+print(config_timeout)
+print(config)
