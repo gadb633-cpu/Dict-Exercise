@@ -57,4 +57,17 @@ print(merge_d1_and_d2)
 # 4
 nested = {"server":{"host":"locahost", "port":8080}}
 print(nested["server"]["port"])
+# 5
+words = ["a","b","a","c","b","a"]
 
+
+# part 3
+#Understanding Questions
+# 1 - It takes the key you bring to it and gives you its location.
+# 2- This way he can access the key without going through all the cells, and a list cannot be a key.
+# 3-If I search in the list, it goes cell by cell, which is slow, and if I search by key, it is fast because it goes straight to the cell it saved.
+# Practice
+# 1
+names = {}
+names.update({"ded":"gad", "mum":"efrat","kide":"yossi"})
+print(names)
