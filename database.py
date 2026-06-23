@@ -10,3 +10,6 @@ print(key_level)
 # 4
 agent["score"]= 95
 print(agent)
+# 5
+agent["level"]=5
+print(agent)
