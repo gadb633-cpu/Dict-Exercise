@@ -13,3 +13,6 @@ print(agent)
 # 5
 agent["level"]=5
 print(agent)
+# 6
+del agent["active"]
+print(agent)
