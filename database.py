@@ -28,5 +28,7 @@ print(agent_values_and_keys)
 print(agent.items())
 # 8
 print("score" in agent)
-
+# 9
+scores = {"alpha":80 , "bravo":95 , "charlie":70}
+print(max(scores.values()))
 
