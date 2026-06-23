@@ -4,3 +4,7 @@ agent = {"name":"alpha", "level":3 , "active":True}
 print(agent)
 # 2
 print(agent["name"])
+# 3
+key_level = agent.get(0)
+print(key_level)
+
