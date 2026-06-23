@@ -45,3 +45,8 @@ print(config_timeout)
 print(config)
 config_timeout = config.setdefault("timeout",0)
 print(config_timeout)
+# 2
+d1 = {"a":1,"b":2}
+d2 = {"b":3,"c":4}
+merge_d1_and_d2 = d1 | d2
+print(merge_d1_and_d2)
