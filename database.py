@@ -43,3 +43,5 @@ config = {}
 config_timeout = config.setdefault("timeout",30)
 print(config_timeout)
 print(config)
+config_timeout = config.setdefault("timeout",0)
+print(config_timeout)
